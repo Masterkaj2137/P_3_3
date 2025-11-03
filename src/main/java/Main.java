@@ -28,7 +28,19 @@ public class Main {
     }
     System.out.println();
   }
+    System.out.println();
 
+    for (int k = 0; k < n; k++){
+
+      for(int i = 0; i <(n-k-1); i++){
+      System.out.print(" ");
+      }
+      for (int j = 0; j < k+1; j++){
+      System.out.print("*");
+      }
+      System.out.println();
+    }
+    System.out.println();
   
   }
 }
