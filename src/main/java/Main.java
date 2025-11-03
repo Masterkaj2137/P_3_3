@@ -14,7 +14,21 @@ public class Main {
       }
       System.out.println();
     }
-    System.out.println(); 
+    System.out.println();
     
+    for (int k = 0; k < n; k++){
+
+    for(int i = 0; i <= k; i++){
+      if(i==0||i==k || k == n-1){
+        System.out.print("*");
+      }
+      else{
+        System.out.print(" ");
+      }
+    }
+    System.out.println();
+  }
+
+  
   }
 }
